@@ -1,0 +1,11 @@
+[package]
+name = "winapi-gdi32"
+version = "0.1.0"
+authors = ["Michael Graf"]
+
+[lib]
+name = "winapi_gdi32"
+path = "src/lib.rs"
+
+[dependencies]
+winapi_typedefs = { git = "https://github.com/bitminded/rs-winapi-typedefs.git" }
